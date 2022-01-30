@@ -1,0 +1,80 @@
+@media (min-width: 1200px) and (max-width: 1500px) { 
+  html {
+    overflow-x: hidden;
+  }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+  html {
+    overflow-x: hidden;
+  }
+  .future-area .future-image img {
+    max-width: 100%;
+    margin-left: 0;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+  html {
+    overflow-x: hidden;
+  }
+  .slider-area .single-slider {
+    min-height: 600px;
+    padding-top: 180px;
+  }
+  .slider-area .slider-text {
+    margin-bottom: 50px;
+  }
+  .testmonial-img img {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .future-area .future-image img {
+    margin-left: 0px; 
+  }
+  .features-list .fea-img img {
+    margin-left: 0px !important;
+  }
+  
+}
+
+
+
+@media (max-width: 767px) { 
+  html {
+    overflow-x: hidden;
+  }
+  .slider-area .single-slider {
+    min-height: 600px;
+    padding-top: 200px;
+  }
+  .slider-area .slider-text {
+    margin-bottom: 50px;
+  }
+  .slider-area .slider-img img {
+    max-width: 100%;
+  }
+  .testmonial-img img {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .future-area .future-image img {
+    margin-left: 0px; 
+    max-width: 100%;
+  }
+  .features-list .fea-img img {
+    margin-left: 0px !important;
+    max-width: 100%;
+  }
+  .features-area .fea-img img {
+    max-width: 100%;
+  }
+  .newsletter-area .newsletter input {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
